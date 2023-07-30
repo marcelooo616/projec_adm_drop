@@ -1,0 +1,13 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.box_menu{
+    width: 10%;
+}
+
+.box_pages{
+    width: 90%;
+    
+}

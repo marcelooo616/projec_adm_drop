@@ -1,0 +1,67 @@
+.menu_lateral{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+    background-color:#07474e;
+    min-width: 120px;
+    min-height: 100px;
+    max-height: 80vh;
+    padding: 15px 0;
+    border-radius: 0px 15px 15px 0px;
+    
+}
+
+.menu_lateral_buttons{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color:#07474e;
+
+}
+
+.box_icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #256067;
+    color: aliceblue;
+
+    min-height: 55px;
+    min-width: 65px;
+    max-height: 55px;
+    max-width: 65px;
+    margin: 15px 0;
+
+    border-radius: 15px 5px 15px 5px;
+
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+
+.box_buttons_sair{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #256067;
+
+    min-height: 55px;
+    min-width: 65px;
+    max-height: 55px;
+    max-width: 65px;
+    margin: 15px 0;
+    margin-top: 100px;
+    
+    border-radius: 15px 5px 15px 5px;
+
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    
+}
+.container{
+    display: flex;
+    min-width: 35%;
+    min-height: 90vh;
+}

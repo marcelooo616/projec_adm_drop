@@ -1,14 +1,17 @@
 import FormLogin from "@/components/FormLogin/index";
 import styles from '@/styles/Login.module.css'
+import Image from "next/image";
+
+import runnerImg from '../../public/assets/runner.jpg';
 
 
 export default function Login(){
     return(
         <>
-            <div className={styles.container}>
+            <main className={styles.container}>
 
                 <div className={styles.box_rigth}>
-                    <img className={styles.img} src="https://i.imgur.com/6rQQZ6K.jpg"/>
+                    <Image className={styles.img} src={runnerImg} alt={"humano correndo"}/>
                     <div className={styles.text_logo_overlay}>
                             DROP
                     </div>
@@ -21,7 +24,7 @@ export default function Login(){
                 <div className={styles.box_left}>
                     <FormLogin/>
                 </div>
-            </div>
+            </main>
 
         </>
     )

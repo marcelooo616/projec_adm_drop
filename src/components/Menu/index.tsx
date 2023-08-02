@@ -1,8 +1,11 @@
 
 import styles from '@/styles/Menu.module.css'
+import { useRouter } from 'next/router';
 import Link from '../../../node_modules/next/link'
 
 export default function Menu() {
+
+    const router = useRouter();
 
     const icons = [
         {
@@ -28,6 +31,18 @@ export default function Menu() {
         
     ];
 
+    const handleLogout = () => {
+        // Limpar o token do Local Storage
+        localStorage.setItem('token', '');
+        console.log(localStorage.getItem('token'));
+      
+        // Verificar se o token foi removido do Local Storage
+        if (!localStorage.getItem('token')) {
+          // Se o token não existe, redirecionar para a página inicial ("/")
+          router.push("/");
+        }
+      };
+
     return(
         <>
         <div className={styles.container}>
@@ -41,7 +56,7 @@ export default function Menu() {
             </div>
         
             <div className={styles.box_buttons_sair}>
-                <Link href="" className={styles.box_icon}>SAIR </Link>
+                <button onClick={() => handleLogout()} className={styles.box_icon}>SAIR </button>
             </div>
         </div>
         </div>

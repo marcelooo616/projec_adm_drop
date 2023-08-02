@@ -1,52 +1,10 @@
-.container{
-    display: flex;
-    height: 100%;
-    
-}
-
-.box_grid_rigth{
-    display: flex;
-    justify-content: center;
-    width: 25VW;
-    height: 100vh;
-    
-}
-
-.box_grid_left{
-    width: 75VW;
-    height: 100vh;
-    
-}
-
-.box_pedidos_recentes{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    border-radius: 14px;
-    width: 90%;
-    height: 79.9%;
-    background-color: rgb(212, 211, 211);
-    
-}
-
-.box_pedidos_recentes h1{
-    background-color: transparent;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: bold;
-    font-size: 15px;
-    padding: 20px;
-    
-    
-    
-}
-
 .card{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     width: 300px;
     height: 130px;
-    background-color: rgb(233, 227, 227);
+    background-color: rgb(255, 255, 255);
     border-radius: 14px;
     padding: 0 15px;
     margin: 0.5rem 0px;
@@ -62,9 +20,11 @@
     font-size: 10px;
 }
 
+
+
 .box_colum{
     display: flex;
-    align-items:flex-start;
+    align-items:flex-end;
     justify-content: center;
     flex-direction: column;
     background-color: transparent;
@@ -99,7 +59,7 @@
 
   /* Estilos do ícone - você pode ajustar conforme necessário */
 .icon {
-    width: 20px;
+    width: 5px;
     height: 35px;
 }
 
@@ -111,22 +71,28 @@
     background-color: transparent;
 }
 
-.icon_circle {
-    background-color: transparent;
-    width: 60px;
-    display: flex;
-    justify-content: space-between;
-}
 
-.icon_circle .aberto{
+
+.i_aberto{
     color:rgb(18, 157, 92);
     background-color: transparent;
 }
-.icon_circle .i_processando{
+.i_processando{
     color:rgb(245, 231, 38);
     background-color: transparent;
+    font-size: 10px;
 }
-.icon_circle .i_fechado{
+.i_fechado{
     color:rgb(206, 63, 7);
     background-color: transparent;
+}
+
+.f_color_aberto{
+    color:rgb(18, 157, 92);
+}
+.f_color_processando{
+    color:rgb(245, 231, 38);
+}
+.f_color_fechado{
+    color:rgb(206, 63, 7);
 }

@@ -4,8 +4,18 @@
   padding: 0;
   margin: 0;
   margin-bottom: -3.5px ;
-  background-color: #f6f8fc;
+  background-color: var(--backgroundColorPrimary);
 }
+:root {
+  --backgroundColorPrimary: #FFFFFF;
+  --backgroundColorSecondary: #F0F0F0;
+  --corComplementarPrimaria: #169955;
+  --corComplementarSecundaria: #010101;
+  --corDeNotificacao: #D34138;
+}
+
+
+
 
 
 

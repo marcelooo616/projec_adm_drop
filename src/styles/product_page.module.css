@@ -1,0 +1,30 @@
+
+
+.nav{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 50%;
+    margin-bottom: 50px;
+}
+.nav_item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 35px;
+    border-radius: 20px;
+    background-color:#07474e;
+    color: aliceblue;
+    margin: 0 10PX;
+    text-decoration: none;
+    transition: transform 0.4s;
+    border: none;
+    
+}
+
+.nav_item:hover{
+    transform: scale(1.08);
+}
+

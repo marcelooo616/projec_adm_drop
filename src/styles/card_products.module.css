@@ -1,0 +1,50 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 10px;
+}
+
+.img{
+    width: 150px;
+    height: 150px;
+    border-radius: 14px;
+}
+
+.description{
+    display: flex;
+    flex-direction: column;
+    margin: 15px 0;
+    font-family: 'Commons', sans-serif;
+}
+.description .title{
+    padding-bottom: 5px;
+    color: rgb(102, 101, 101);
+}
+
+
+
+@font-face {
+    font-family: 'Commons';
+    src: url('../../public/assets/font/TT\ Commons\ DemiBold.otf') format('truetype');
+    /* Adicione outras variações (bold, italic, etc.) se necessário */
+  }
+  
+
+.image_overlay{
+    display: inline-block;
+    position: relative;
+    
+}
+.icon{
+    position: absolute;
+    top: 0;
+    right: 1;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 50%;
+    padding: 7px;
+    margin-left: 110px;
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

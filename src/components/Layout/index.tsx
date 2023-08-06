@@ -5,6 +5,9 @@ import Header from "../header/index";
 import Menu from "../Menu/index";
 import styles from '@/styles/Layout.module.css'
 
+import {ToastContainer} from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
 
 
 
@@ -15,6 +18,7 @@ interface LayoutProps {
 const Layout: React.FC<LayoutProps> = ({ children }) => {
   return (
     <div >
+      <ToastContainer />
       <Header />
         <div className={styles.container}>
           <div className={styles.box_menu}>

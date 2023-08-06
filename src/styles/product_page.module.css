@@ -1,5 +1,3 @@
-
-
 .nav{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: flex;
@@ -27,4 +25,24 @@
 .nav_item:hover{
     transform: scale(1.08);
 }
+
+/*.container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.grid_product{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    
+    max-height: 750px;
+
+    overflow: auto;
+    width: 75%;
+    height: 50%;
+}*/
 

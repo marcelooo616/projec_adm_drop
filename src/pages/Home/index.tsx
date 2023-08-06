@@ -12,7 +12,7 @@ export default function Home() {
     <Layout>
       <main className={styles.container}>
         <div className={styles.box_grid_rigth}>
-            <div className={styles.box_pedidos_recentes}>
+           {/* <div className={styles.box_pedidos_recentes}>
 
               <div className={styles.title}>
                 <h1>Pedidos recentes</h1>
@@ -47,7 +47,7 @@ export default function Home() {
                   valor={499.65}
                   status_pedido='PROCESSANDO'
               />
-            </div>
+  </div>*/}
         </div>
         <div className={styles.box_grid_left}>
                 

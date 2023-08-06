@@ -25,27 +25,24 @@ export default function Login(){
                 data,
             );
 
-            if (response.status == 200 ) {
-                
-                const { token } = response.data;
-                localStorage.setItem('token', token);
-
-                if(localStorage.getItem(token) != ''){
-                    router.push('/Home');
-
-                }
-
-                } else {
-                throw new Error(response.statusText);
-                }
-        } catch (error) {
             
 
-        }
+            if (response.status === 200 && response.data.admin === true) {
+                const { token } = response.data;
+                localStorage.setItem('token', token);
+            
+                    router.push('/Home');
+                } else {
+                    // Caso o login não seja permitido (não é administrador), você pode exibir uma mensagem de erro
+                    throw new Error('Login não autorizado');
+                }
+                } catch (error) {
+                // Tratar erros de requisição ou outros erros de login, caso necessário
+                console.error('Erro ao fazer login:', error);
+                }
 
         };
-
-
+        
     return(
         <>
             <main className={styles.container}>

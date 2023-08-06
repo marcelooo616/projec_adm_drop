@@ -1,0 +1,218 @@
+.container{
+    display: flex;
+    flex-direction: row;
+
+}
+.box_Image{
+    display: flex;
+    
+    flex-direction: row;
+    width: 40%;
+    
+    justify-content: space-evenly;
+    
+    
+}
+.inputImage{
+    display: flex;
+    
+    justify-content: center;
+    background-color: rgba(103, 205, 230, 0.192);
+    border: solid 2px ;
+    border-radius: 14px;
+    transition: transform 0.4s;
+    
+}
+
+.inputImage:hover{
+    transform: scale(1.08);
+    background-color: rgba(4, 59, 73, 0.582);
+    color: aliceblue;
+}
+
+.container input{
+    font-size: 10px;
+    padding: 10px;
+    height: 150px;
+    
+}
+
+.img{
+    width: 275px;
+    height: 250px;
+    border-radius: 14px;
+    margin: 25px;
+}
+.input{
+    display: flex;
+    flex-direction: column;
+}
+
+.input span{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 10px;
+    padding: 10px;
+}
+
+.input button{
+    margin: 15px 0;
+    border-radius: 22px;
+    height: 50px;
+    border: none;
+    margin-top: 20px;
+    transition: transform 0.4s;
+    color: aliceblue;
+    background-color: #07474e;
+
+}
+
+.input button:hover{
+    transform: scale(1.08);
+    background-color: rgba(4, 59, 73, 0.582);
+    color: aliceblue;
+}
+.icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 100px;
+    width: 275px;
+    height: 250px;
+    color: #07474e;
+    ;
+}
+
+.container_form{
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+    width: 60%;
+    height: 100%;
+}
+.form{
+    display: flex;
+    align-items: center;
+    justify-content: first baseline;
+    margin-bottom: 55px;
+    flex-direction: column;
+    border: 0;
+    border-radius: 14px;
+    width: 75%;
+    height: 65%;
+    background-color:var(--backgroundColorSecondary);
+    padding: 55px;
+}
+
+.form input{
+    width: 100%;
+    height: 50px ;
+    padding: 10px;
+    border-radius: 14px;
+    margin-top: 25px;
+    font-size: 15px;
+    border:  #07474e 2px  solid;
+}
+
+.box_price{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: transparent;
+    justify-content: space-between;
+    appearance: none;
+    
+}
+
+/* Estilo para remover as setas do input do tipo number */
+.form input[type='number']::-webkit-inner-spin-button,
+.form input[type='number']::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Estilo para remover as setas do input do tipo number em navegadores Gecko (Firefox) */
+.form input[type='number'] {
+  -moz-appearance: textfield;
+}
+
+
+.input_P_unitario{
+    width: 40% !important;
+}
+.input_P_promocao{
+    width: 40% !important;
+}
+
+.checkbox{
+    display: flex;
+    margin-bottom: 85px;
+    background-color: transparent;
+    width: 25px;
+    height: 10px;
+    
+    
+      
+}
+.row_check{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color:transparent;
+    width: 100%;
+    height: 50px;
+    margin-top: 35px;
+    font-family: 'Commons';
+}
+.row_check span{
+    font-size: 1.2em;
+    background-color: transparent;
+    
+}
+
+.detalhes{
+    width: 100%;
+    height: 40%;
+    border-radius: 14px;
+    margin-top: 20px;
+}
+
+.detalhes textarea{
+    width: 100%;
+    height: 100%;
+    border:  #07474e 2px  solid;
+    border-radius: 14px;
+    font-family: 'Commons';
+    text-align: center;
+    
+}
+
+
+.box_buttons{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    background-color: transparent;
+    height: 55px;
+    margin-top: 50px;
+}
+
+.box_buttons button{
+    height: 45px;
+    width: 25%;
+    border: none;
+    border-radius: 22px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #07474e;
+    color: aliceblue;
+    transition: transform 0.4s;
+}
+
+
+.box_buttons button:hover{
+    transform: scale(1.08);
+    background-color: rgba(4, 59, 73, 0.582);
+    color: aliceblue;
+}
+  

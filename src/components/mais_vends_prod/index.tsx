@@ -1,5 +1,13 @@
+
+import styles from '@/styles/PageNotFound.module.css';
+import PageNotFound from '../PageNotFound';
+
 export default function Mais_vends(){
     return(
-        <h1>Mais_vends</h1>
+        <div className={styles.container}>
+            <PageNotFound
+                page='Mais_vends'
+            />
+        </div>
     )
 }

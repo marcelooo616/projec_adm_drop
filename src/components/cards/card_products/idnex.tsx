@@ -18,12 +18,13 @@ const CardProducts: React.FC<CardProductsProps> = ({
         <div className={styles.container}>
             <div className={styles.image_overlay}>
                 <div className={styles.icon_img}>
+                    
                     <img className={styles.img} src={img} alt="image tenis jorndas" width={50} height={50}/>
                 </div>
                 
-                <div className={styles.icon}>
+                {/*<div className={styles.icon}>
                     <FiHeart/>
-                </div>
+                </div>*/}
                 
             </div>
             <div className={styles.description}>

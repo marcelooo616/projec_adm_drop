@@ -1,24 +1,250 @@
 .container{
   display: flex;
   flex-direction: column;
-  background-color: aqua;
+  
+  padding-right:25px ;
   height: 80vh;
 }
 
-.box_pesquisa{
+.box_nav{
   display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  background-color: blue;
+  justify-content: space-between;
   width: 100%;
   height: 100px;
   padding-left: 40px ;
+  
 }
 
-.box_pesquisa input{
-  width: 40%;
+.box_nav .sher{
+  display: flex;
+  align-items: center;
+  width: 50%;
   height: 50px;
-  border: none;
-  border-radius: 14px;
-  padding-left: 20px;
+  
 }
+
+.box_nav input{
+  width: 80%;
+  height: 90%;
+  border: none;
+  border: rgb(204, 209, 208) 1px solid;
+  border-radius: 22px 0 0 22px;
+  padding-left: 20px;
+  
+  
+  
+}
+
+.box_nav button{
+  display: flex;
+  align-items: center;
+  font-size: 35px;
+  background-color: transparent;
+  border: none;
+  
+}
+
+.box_nav .button_search {
+  display: flex;
+  align-items: center;
+  background-color: rgb(7, 71, 78);
+  
+  padding: 10px;
+  
+  height: 90%;
+  
+}
+
+.box_nav .button_filter {
+  display: flex;
+  align-items: center;
+  background-color: rgb(37, 96, 103);
+  border-radius: 0 22px  22px 0;
+  padding: 10px;
+  
+  height: 90%;
+  
+}
+.icons{
+  background-color: transparent;
+  color: aliceblue;
+}
+
+.button_add{
+  height: 100%;
+}
+
+.box_nav .button_add button{
+  
+  background-color: rgb(179, 2, 98);
+  color: aliceblue;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  margin-right: 75px;
+  border: none;
+  border-radius: 22px;
+  padding: 10px;
+}
+
+.box_nav .button_add button .icons{
+  color:aliceblue;
+  margin: 0 5px;
+}
+
+
+
+
+
+
+.contant_table{
+  background-color: aqua;
+
+}
+
+.contant_table .box_tags{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 0 14px;
+  
+  
+  width: 100%;
+  height: 75px;
+}
+.contant_table .box_tags button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 10%;
+  border: none;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 14px;
+  margin-left: 10px;
+
+  
+}
+.contant_table .box_tags button {
+  border: solid rgb(37, 96, 103)  1px;
+  border-radius: 22px;
+  padding: 10px 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  color: rgb(37, 96, 103);
+
+}
+
+.contant_table .box_tags .b_id{
+  width: 10%;
+
+}
+.contant_table .box_tags .b_nome{
+  width: 30%;
+}
+
+.contant_table .box_tags .b_email{
+  width: 30%;
+}
+.contant_table .box_tags .b_status{
+  width: 10%;
+}
+.contant_table .box_tags .b_permissao{
+  width: 10%;
+  
+  
+}
+
+
+
+
+
+
+
+
+.box{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  max-height: 60vh;
+  overflow: auto;
+  width: 100%;
+  
+}
+
+.container_card_user{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  min-height: 75px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+  
+}
+.container_card_user div{
+  
+  display: flex;
+  justify-content: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: transparent;
+}
+.container_card_user .b_id{
+  width: 10%;
+  max-width: 10%;
+  
+  
+}
+.container_card_user .b_nome{
+  width: 30%;
+  max-width: 30%;
+}
+
+.container_card_user .b_email{
+  width: 30%;
+  max-width: 30%;
+}
+.container_card_user .b_status{
+  width: 10%;
+  max-width: 10%;
+}
+.container_card_user .b_permissao{
+  display: flex;
+  width: 10%;
+  max-width: 10%;
+  text-align: end;
+  
+}
+
+.container_card_user .aling{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+
+
+
+.box .container_card_user button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 10%;
+  border: none;
+  background-color: RGB(7, 71, 78);
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 14px;
+  margin-left: 10px;
+
+  
+}
+
+.box .container_card_user button .icon_edit{
+  background-color: RGB(7, 71, 78);
+  color: aliceblue;
+  
+  
+}
+
+
+

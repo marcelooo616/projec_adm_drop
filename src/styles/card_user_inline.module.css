@@ -1,0 +1,93 @@
+
+
+.container_card_user{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    min-height: 75px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    
+}
+.container_card_user div{
+    
+    display: flex;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: transparent;
+}
+.container_card_user .b_id{
+    width: 10%;
+    max-width: 10%;
+    
+    
+}
+.container_card_user .b_nome{
+    width: 30%;
+    max-width: 30%;
+}
+
+.container_card_user .b_email{
+    width: 30%;
+    max-width: 30%;
+}
+.container_card_user .b_status{
+    width: 10%;
+    max-width: 10%;
+}
+.container_card_user .b_permissao{
+    display: flex;
+    width: 10%;
+    max-width: 10%;
+    text-align: end;
+    
+}
+
+.container_card_user .b_status .d{
+    color: red;
+    border-radius: 22px;
+    padding: 0 10px;
+    border: solid 1px red;
+}
+.container_card_user .b_status .a{
+    color: green;
+    border-radius: 22px;
+    padding: 0 10px;
+    border: solid 1px green;
+
+
+}
+
+.container_card_user .aling{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+
+
+.container_card_user button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 10%;
+    border: none;
+    background-color: RGB(7, 71, 78);
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 14px;
+    margin-left: 10px;
+
+    
+}
+
+.container_card_user button .icon_edit{
+    background-color: RGB(7, 71, 78);
+    color: aliceblue;
+    
+    
+}
+
+

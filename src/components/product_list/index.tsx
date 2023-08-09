@@ -202,6 +202,7 @@ export default function Product_list(){
                                 img={image.imageUrl}
                                 price={product.promotion_price.toFixed(2)}
                             />
+                            
                             ))}
                         </div>
                     ))}

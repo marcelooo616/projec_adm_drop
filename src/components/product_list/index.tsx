@@ -2,7 +2,7 @@ import CardProducts from "../cards/card_products/idnex";
 import styles from '@/styles/product_page.module.css'
 import axios from "axios";
 import { useEffect, useState } from "react";
-import { ImGift } from "react-icons/im";
+import { BsFilter } from 'react-icons/bs';
 import { toast } from "react-toastify";
 
 
@@ -182,9 +182,13 @@ export default function Product_list(){
     return(
         <div className={styles.container_prod_list}>
             <div className={styles.title}>
-                <h1>Meus Produtos</h1>
+                <div className={styles.filter}>
+                    <h1>Meus Produtos</h1>
+                    <button onClick={updateListProd}><BsFilter className={styles.icons}/></button>
+                </div>
                 <button onClick={updateListProd}>Atualizar</button>
             </div>
+            <hr /> 
             {
                 loading ? (
                     <div className={styles.loader}></div>

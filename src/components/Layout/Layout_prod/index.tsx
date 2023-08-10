@@ -6,9 +6,10 @@ import styles from '@/styles/product_page.module.css';
 import Link from "next/link";
 import Product_list from "@/components/product_list";
 import Cadastro_prod from "@/components/cadastro_prod";
-import Filter_prod from "@/components/filter_prod";
+import Filter_prod from "@/components/estoque";
 import Mais_vends from "@/components/mais_vends_prod";
 import Melh_avali_prod from "@/components/melh_avali_prod";
+import Estoque from "@/components/estoque";
 
 
 export default function Layout_prods(){
@@ -19,10 +20,9 @@ export default function Layout_prods(){
 
                             <Product_list/>,
                             <Cadastro_prod/>,
-                            <Filter_prod/>,
+                            <Estoque/>,
                             <Mais_vends/>,
                             <Melh_avali_prod/>,
-                            
                             ] 
 
     
@@ -46,7 +46,7 @@ export default function Layout_prods(){
                     Cadastra
                 </button>
                 <button onClick={() => handleNavigator(2)}  className={styles.nav_item}>
-                    Filtra
+                    Estoque
                 </button>
                 <button onClick={() => handleNavigator(3)}  className={styles.nav_item}>
                     Mais vends.

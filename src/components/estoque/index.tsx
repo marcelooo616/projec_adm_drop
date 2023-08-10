@@ -7,7 +7,7 @@ import PageNotFound from '../PageNotFound';
 
 
 
-export default function Filter_prod(){
+export default function Estoque(){
 
     
     return(

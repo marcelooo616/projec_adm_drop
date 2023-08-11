@@ -22,10 +22,6 @@ export default function Menu() {
             link: "Prod",
         },
         {
-            name: "ESTQ",
-            link: "Estq",
-        },
-        {
             name: "PEDS",
             link: "Peds",
         },

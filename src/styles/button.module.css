@@ -1,0 +1,8 @@
+.button{
+    transition: transform 0.4s;
+}
+.button:hover{
+    transform: scale(1.08);
+    background-color: #2e9ba3 !important;
+    color: aliceblue !important;
+}

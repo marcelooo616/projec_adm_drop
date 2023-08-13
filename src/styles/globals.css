@@ -12,6 +12,8 @@
   --corComplementarPrimaria: #169955;
   --corComplementarSecundaria: #010101;
   --corDeNotificacao: #D34138;
+  --corSecundaryButtons: rgb(179, 2, 98);
+  --corPrimaryButtons:#07474e;
 }
 
 /* styles/globals.css */
